@@ -1,1 +1,2 @@
-*/3 * * * * root sshpass -p '1234' ssh -oStrictHostKeyChecking=no root@192.168.1.26 /usr/sbin/msntp -P no -r pool.ntp.org >> /var/log/cron 2>&1
+* * * * * root echo "Hello world" >> /var/log/cron.log 2>&1
+# An empty line is required at the end of this file for a valid cron file.
