@@ -1,1 +1,1 @@
-
+*/3 * * * * root sshpass -p '1234' ssh -oStrictHostKeyChecking=no root@192.168.1.26 /usr/sbin/msntp -P no -r pool.ntp.org >> /var/log/cron 2>&1
